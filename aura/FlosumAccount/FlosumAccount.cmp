@@ -1,0 +1,21 @@
+<!-- GenericAccountComponent.cmp -->
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId" access="global">
+    <!-- Attributes -->
+    <aura:attribute name="account" type="Object" />
+    <aura:attribute name="isLoading" type="Boolean" default="true" />
+    <!-- Handlers -->
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <!-- Body -->
+    <aura:if isTrue="{!v.isLoading}">
+        <!-- Loading spinner or message -->
+        <lightning:spinner alternativeText="Loading..." size="small" />
+    <aura:set attribute="else">
+        <div>
+            <h2>Account Details</h2>
+            <p><strong>Account Name:</strong> {!v.account.Name}</p>
+            <p><strong>Account Owner:</strong> {!v.account.Owner.Name}</p>
+            <!-- Additional fields as needed -->
+        </div>
+    </aura:set>
+    </aura:if>
+</aura:component>

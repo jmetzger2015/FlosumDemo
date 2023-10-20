@@ -1,0 +1,20 @@
+/* GenericAccountComponent.css */
+.THIS .loading-spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.THIS .account-details {
+    margin: 20px;
+}
+
+.THIS .account-details h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.THIS .account-details p {
+    margin-bottom: 5px;
+}

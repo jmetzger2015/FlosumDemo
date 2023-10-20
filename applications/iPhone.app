@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <label>iPhone</label>
+    <navType>Standard</navType>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>iPhone_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>iPhone__c</pageOrSobjectType>
+        <recordType>iPhone__c.JasoniPhone</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>iPhone_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>iPhone__c</pageOrSobjectType>
+        <recordType>iPhone__c.JasoniPhone</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <tabs>iPhone__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>iPhone_UtilityBar</utilityBar>
+</CustomApplication>

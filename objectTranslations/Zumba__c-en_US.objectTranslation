@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Zumba</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Zumba</value>
+    </caseValues>
+    <fields>
+        <label><!-- ApprovalDate --></label>
+        <name>ApprovalDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- ExpenseAmount --></label>
+        <name>ExpenseAmount__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
